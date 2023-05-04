@@ -3,7 +3,7 @@
 	width: 150px;
 	height: 150px;
 	background-color: lightblue;
-	text-align: center;
+	
 	border: 2px solid black;
 	
 	display:flex;
@@ -11,9 +11,13 @@
 	justify-content: center;
 	margin: auto;
 	padding: 50px 50px;
-	color: purple;
-	font-weight: bold;
+	
 	position: absolute;
 	top: 50%;
 	left: 50%;
+}
+.container p{
+	color: purple;
+	font-weight: bold;
+	text-align: center;
 }
